@@ -35,8 +35,9 @@ def greet(name):
     
     if not name.strip():
         raise ValueError("Name cannot be empty")
-    
-    message = f"Hello in main, {name.strip()}!"
+   
+    message = f"Hello in Ricky feature is ok, {name.strip()}!"
+
     print(message)
     return message
 
